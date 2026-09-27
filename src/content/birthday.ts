@@ -90,9 +90,10 @@ export const birthdayContent = {
       { src: "/photos/memory-3.jpg" as string | null, caption: "Silly costumes" },
       { src: "/photos/memory-4.jpg" as string | null, caption: "Just us" },
       { src: "/photos/memory-5.jpg" as string | null, caption: "That mall day" },
+      { src: "/photos/memory-6.jpg" as string | null, caption: "Tghghy" },
       // Add more photos any time — just drop the file in /public/photos
       // and point the src at it. Leave src as null to show a placeholder.
-      { src: null as string | null, caption: "More coming soon" },
+   
     ],
     nextLabel: "Next →",
   },

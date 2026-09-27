@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+  <rect width="500" height="700" fill="#f7d8c4"/>
+  <circle cx="250" cy="260" r="90" fill="#fff6ee" opacity="0.8"/>
+  <text x="250" y="270" font-size="70" text-anchor="middle">🧸</text>
+  <g fill="#a9552f" font-family="Georgia, serif" text-anchor="middle" opacity="0.85">
+    <text x="250" y="480" font-size="26">drop a childhood photo at</text>
+    <text x="250" y="514" font-size="24" font-weight="bold">/public/photos/childhood.jpg</text>
+  </g>
+</svg>

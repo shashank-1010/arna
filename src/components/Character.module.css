@@ -1,0 +1,59 @@
+.character {
+  width: clamp(90px, 26vw, 130px);
+  height: auto;
+  filter: drop-shadow(0 6px 10px rgba(92, 46, 30, 0.15));
+}
+
+.imageMascot {
+  object-fit: contain;
+}
+
+.arm {
+  transform-origin: 86px 100px;
+}
+
+.wave .arm {
+  animation: wave 1.1s ease-in-out infinite;
+}
+
+.cheer .arm {
+  animation: wave 0.5s ease-in-out infinite;
+}
+
+.peek {
+  animation: peek 2.6s ease-in-out infinite;
+}
+
+.sad {
+  animation: droop 2.4s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-18deg);
+  }
+}
+
+@keyframes droop {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(-2deg);
+  }
+}
+
+@keyframes peek {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(6px);
+  }
+}

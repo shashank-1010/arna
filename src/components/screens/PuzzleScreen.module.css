@@ -1,0 +1,7 @@
+.subheading {
+  margin: -8px 0 0;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--red-soft);
+  max-width: 32ch;
+}

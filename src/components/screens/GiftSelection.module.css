@@ -1,0 +1,27 @@
+.row {
+  display: flex;
+  justify-content: center;
+  gap: clamp(10px, 4vw, 24px);
+  margin: 18px 0 6px;
+  flex-wrap: wrap;
+}
+
+.hint {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--red-soft);
+}
+
+.arrow {
+  width: 46px;
+  height: 30px;
+  transform: rotate(20deg);
+}
+
+.restart {
+  margin-top: 10px;
+  font-size: clamp(0.95rem, 3.2vw, 1.05rem) !important;
+  padding: 8px 22px !important;
+  opacity: 0.85;
+}

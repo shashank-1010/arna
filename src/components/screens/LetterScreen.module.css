@@ -1,0 +1,36 @@
+.paper {
+  width: 100%;
+  background: repeating-linear-gradient(
+    var(--card),
+    var(--card) 31px,
+    var(--cream) 32px
+  );
+  border-radius: 10px;
+  padding: 16px 14px;
+  box-shadow: 0 6px 16px var(--shadow) inset;
+  text-align: left;
+}
+
+.line {
+  font-family: var(--font-hand);
+  font-size: 1.2rem;
+  line-height: 32px;
+  color: var(--ink);
+  margin: 0;
+  opacity: 0;
+  transform: translateY(6px);
+  animation: reveal 500ms ease forwards;
+}
+
+.signOff {
+  color: var(--red);
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+@keyframes reveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

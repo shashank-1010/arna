@@ -1,0 +1,47 @@
+.wrap {
+  width: 100%;
+  text-align: left;
+  background: repeating-linear-gradient(
+    var(--card),
+    var(--card) 31px,
+    var(--cream) 32px
+  );
+  border-radius: 10px;
+  padding: 16px 16px 12px;
+  box-shadow: 0 6px 16px var(--shadow) inset;
+}
+
+.line {
+  font-family: var(--font-hand);
+  font-size: 1.25rem;
+  line-height: 32px;
+  color: var(--ink);
+  margin: 0;
+  min-height: 32px;
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.1em;
+  margin-left: 2px;
+  background: var(--red);
+  vertical-align: text-bottom;
+  animation: blink 900ms step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor {
+    animation: none;
+  }
+}

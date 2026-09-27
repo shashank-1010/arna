@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2b6b0"/>
+      <stop offset="55%" stop-color="#fbe9d7"/>
+      <stop offset="100%" stop-color="#e07a63"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g fill="#c1352b" opacity="0.9">
+    <path d="M300 175c40-55 130-40 130 30 0 70-100 120-130 155-30-35-130-85-130-155 0-70 90-85 130-30z"/>
+  </g>
+  <g fill="#fffdf9" opacity="0.85" font-family="Georgia, serif">
+    <text x="300" y="430" font-size="34" text-anchor="middle">drop your photo at</text>
+    <text x="300" y="472" font-size="30" text-anchor="middle" font-weight="bold">/public/photos/puzzle.jpg</text>
+  </g>
+</svg>
